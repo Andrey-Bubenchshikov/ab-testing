@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  jupyter:
+    container_name: ab-testing
+    build: ./
+    volumes:
+      - ./src:/src
+    ports:
+      - "8888:8888"
+
