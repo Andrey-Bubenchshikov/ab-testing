@@ -16,3 +16,4 @@ pandahouse==0.2.7
 pingouin==0.5.2
 tqdm==4.64.1
 scikit-posthocs==0.7.0
+pydantic==2.3.0
